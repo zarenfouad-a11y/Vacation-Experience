@@ -1,0 +1,87 @@
+/* Reset default margin, padding, and border */
+body, header, h1, h2, p, section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* Page base */
+body {
+  background-color: #f4f7fa;            
+  font-family: "Segoe UI", Tahoma, Arial, sans-serif; 
+  color: #2c2c2c;                        
+  line-height: 1.6;                      
+}
+
+/* Header */
+header {
+  background-color: #1f3b57;
+  color: #ffffff;
+  text-align: center;                    
+  padding: 28px;                         
+  border-radius: 0 0 18px 18px;          
+  box-shadow: 0 6px 14px rgba(0,0,0,0.25); 
+}
+
+header .subtitle {
+  opacity: 0.9;
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+/* Main content card */
+section {
+  max-width: 880px;                      
+  margin: 24px auto;                     
+  padding: 26px;                         
+  background-color: #ffffff;
+  border-radius: 16px;                   
+  box-shadow: 0 10px 24px rgba(0,0,0,0.12); 
+}
+
+/* Headings */
+h1 { font-size: 34px; }
+h2 { 
+  font-size: 24px;                       
+  color: #1f3b57;
+  margin: 18px 0 10px;
+}
+
+/* Paragraphs */
+p {
+  font-size: 16px;                       
+  margin-bottom: 16px;
+}
+
+/* List */
+ul {
+  list-style: square;                    
+  margin-left: 28px; 
+  margin-bottom: 16px;
+}
+
+/* Images & captions */
+figure {
+  margin: 14px 0 24px;
+  text-align: center;
+}
+img {
+  width: 100%;
+  max-width: 760px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 12px;                   
+  box-shadow: 0 8px 18px rgba(0,0,0,0.18);
+}
+figcaption {
+  font-size: 12px;
+  color: #5a6872;
+  margin-top: 8px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 14px 10px;
+  color: #5a6872;
+}
